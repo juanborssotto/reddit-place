@@ -1,0 +1,6 @@
+.tile {
+  height: 16px;
+  width: 16px;
+  /*border: solid 1px #4d4d4d;*/
+  display: inline-block;
+}

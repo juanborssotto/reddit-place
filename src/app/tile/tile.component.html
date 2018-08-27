@@ -1,0 +1,8 @@
+<div class="tile"
+[(colorPicker)]="tile.color" 
+[style.background]="tile.color"
+[cpOKButton]="true"
+[cpCancelButton]="true"
+[cpSaveClickOutside]="false"
+(colorPickerSelect)="colorPickerSelected()">
+</div>

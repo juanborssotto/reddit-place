@@ -1,0 +1,7 @@
+<div id="container">
+<ng-container *ngFor="let tile of tiles">
+  <br *ngIf="tile.y == 0 && tile.x != 0">
+  <app-tile [tile]="tile" (userCannotModify)="userCannotModifyEvent($event)"></app-tile>
+</ng-container>
+</div>
+<app-snackbar [showSnackbar]="showSnackbar"></app-snackbar>
